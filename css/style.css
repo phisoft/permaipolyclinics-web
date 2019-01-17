@@ -14,28 +14,28 @@
               [Table of Contents]
 =========================================================================
 
-01. Typography 
+01. Typography
 02. General
 03. Button
 04. Input
 05. Home 1
 06. Home 2
-07. About Us 
+07. About Us
 08. Doctor
 09. Doctor Details
 10. Service
-11. Service Details 
-12. Pricing 
-13. Blog 
-14. Blog Single 
+11. Service Details
+12. Pricing
+13. Blog
+14. Blog Single
 15. Gallery
 16. Appointment
-17. Contact Us 
-18. FAQ 
+17. Contact Us
+18. FAQ
 19. Department
-20. Testimonial 
+20. Testimonial
 21. Career
-22. 404 Error  
+22. 404 Error
 
 /* =============== Colors Used=====================
   Blue: #03A3C7;
@@ -541,6 +541,9 @@ p.wel-msg {
 	color:#FFFFFF;
 }
 /*---------------------  doctor  ---------------------*/
+#viewMore {
+	display: none;
+}
 
 .doctor-section {
 	padding-top:60px;
@@ -846,7 +849,7 @@ p.wel-msg {
     /*===== Home 2 =====*/
 /* ================================= */
 
-/* -------------- topbar2 ----------------------- */ 
+/* -------------- topbar2 ----------------------- */
 .topbar2 {
 	background:#1D3349;
 }
@@ -877,7 +880,7 @@ p.wel-msg {
 	text-transform:none;
 	font-weight:300;
 }
-/* -------------- header2 ----------------------- */ 
+/* -------------- header2 ----------------------- */
 
 .header2 {
 }
@@ -1243,6 +1246,10 @@ p.wel-msg {
 	line-height:1;
 }
 /* --------------------- About US  ------------------- */
+.about-logo {
+	width: 70%;
+}
+
 .blockquote {
 	position:relative;
 	margin-left:75px;
@@ -1324,6 +1331,7 @@ p.wel-msg {
 /* --------------------- Doctor style box  ------------------- */
 .dc-style-box {
 	margin-bottom: 50px;
+	text-align: -moz-center;
 }
 .dc-style-box img {
 	border:1px solid #DCE8F1;
