@@ -319,7 +319,7 @@ p.wel-msg {
 .header:before {
 	content: '';
 	position: absolute;
-	background-color: #207FDC;
+	background-color: #028983;
 	right: 0;
 	left: 40%;
 	margin-left: -15px;
@@ -737,6 +737,7 @@ p.wel-msg {
 }
 .footer-contact-box {
 	background: #207FDC;
+  background: #028983;
 	margin-bottom: -84px;
 	margin-right: -45px;
 	padding: 80px 30px 74px;
@@ -1223,7 +1224,7 @@ p.wel-msg {
 /*---------------- Page Header ------------------------*/
 
 .page-header {
-	background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), rgba(0, 0, 0, 0.50) url(../images/page-header.jpg) no-repeat center;
+	background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), rgba(0, 0, 0, 0.50) url(../images/page-header1.jpg) no-repeat center;
 	background-size: cover;
 	color: #FFFFFF;
 	margin: 0;
@@ -1247,7 +1248,7 @@ p.wel-msg {
 }
 /* --------------------- About US  ------------------- */
 .about-logo {
-	width: 70%;
+	width: 250px;
 }
 
 .blockquote {
