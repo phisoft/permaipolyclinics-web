@@ -758,7 +758,7 @@ p.wel-msg {
 	padding:5px 20px 10px 0;
 }
 .footer-social-box {
-	margin-left:30px;
+	margin-left:80px;
 }
 .footer-social-box ul {
 	list-style:none;
@@ -767,11 +767,11 @@ p.wel-msg {
 }
 .footer-social-box ul li {
 	float:left;
-	padding:10px 6px 0 6px;
+	padding:10px 20px 0 6px;
 }
 .footer-social-box ul li a i {
-	color:#569ADD;
-	font-size:22px;
+	color:#A1D0FF;
+	font-size:25px;
 }
 .footer-social-box ul li a:hover i {
 	color:#A1D0FF;
