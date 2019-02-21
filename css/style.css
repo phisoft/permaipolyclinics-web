@@ -511,7 +511,7 @@ p.wel-msg {
 }
 /*---------------------  department  ---------------------*/
 .department-section {
-	padding:200px 0 60px 0;
+	padding:50px 0 60px 0;
 	background:#207FDC;
 }
 .department-section .heading-title {
@@ -770,8 +770,8 @@ p.wel-msg {
 	padding:10px 20px 0 6px;
 }
 .footer-social-box ul li a i {
-	color:#A1D0FF;
-	font-size:25px;
+	color:rgb(255, 255, 255);
+	font-size:23px;
 }
 .footer-social-box ul li a:hover i {
 	color:#A1D0FF;
@@ -2214,4 +2214,26 @@ ul.department-list li.active a i {
 .specialities-box {
 	display: none;
 }
+}
+
+* {
+	box-sizing: border-box;
+}
+  
+
+.searchContainer {
+	display: inline-flex;
+	flex: 2 2 300px;
+	position: relative;
+	border: 1px solid rgb(150, 149, 149);
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+#myInput {
+  border: none;
+}
+  
+.searchIcon {
+	padding: 1.0rem;
 }
