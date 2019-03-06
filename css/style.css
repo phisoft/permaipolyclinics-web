@@ -2218,20 +2218,22 @@ ul.department-list li.active a i {
 
 * {
 	box-sizing: border-box;
-  }
+}
   
 
-
-  .searchContainer {
+.searchContainer {
 	display: inline-flex;
 	flex: 2 2 300px;
 	position: relative;
 	border: 1px solid rgb(150, 149, 149);
 	border-radius: 10px;
 	overflow: hidden;
-  }
+}
+
+#myInput {
+  border: none;
+}
   
-  .searchIcon {
+.searchIcon {
 	padding: 1.0rem;
-  }
-  
+}
