@@ -2233,6 +2233,12 @@ ul.department-list li.active a i {
 #myInput {
   border: none;
 }
+
+@media screen and (max-width: 40rem) {
+  #myInput {
+    width: 100%;
+  }
+}
   
 .searchIcon {
 	padding: 1.0rem;
