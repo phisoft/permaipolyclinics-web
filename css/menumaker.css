@@ -179,7 +179,6 @@
 }
 #navmenu.small-screen {
   width: 100%;
-  display:inline-block;
 }
 #navmenu.small-screen ul {
   width: 100%;
@@ -238,7 +237,7 @@
   padding: 17px;
   color: #ffffff;
   cursor: pointer;
-  font-size: 12px;
+
   text-transform: uppercase;
   font-weight: 700;
 }
@@ -359,5 +358,10 @@
   }
   #navmenu ul ul li a{
     border-top:none;
+  }
+  .col-md-10 {
+    padding-right: 0px;
+    padding-left: 0px;
+  
   }
 }
