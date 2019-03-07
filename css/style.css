@@ -1341,7 +1341,6 @@ p.wel-msg {
 .dc-style-inner {
 	text-align: center;
 	padding: 20px 0;
-	border-bottom: 2px solid #E0E0E0;
 }
 .dc-style-inner ul {
 	list-style: none;
@@ -2234,12 +2233,21 @@ ul.department-list li.active a i {
   border: none;
 }
 
+.logo-responsive {
+  max-width: 160px;
+}
+
 @media screen and (max-width: 40rem) {
   #myInput {
     width: 100%;
+  }
+
+  .logo-responsive {
+    width: 200px;
   }
 }
   
 .searchIcon {
 	padding: 1.0rem;
 }
+
