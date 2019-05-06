@@ -532,7 +532,15 @@ p.wel-msg {
 .department-section {
 	padding:50px 0 60px 0;
 	background:#207FDC;
+  text-align: left;
 }
+
+@media(max-width: 40em) {
+  .department-section {
+    text-align: center;
+  }
+}
+
 .department-section .heading-title {
 	color:#FFFFFF;
 }
@@ -550,6 +558,7 @@ p.wel-msg {
 }
 .department-inner-icon {
 	text-align: center;
+	margin-bottom: 10px;
 }
 .department-icon {
 	color:#FFFFFF;
@@ -2204,10 +2213,6 @@ ul.department-list li.active a i {
 }
 .dr-details {
 	padding: 30px 45px;
-}
-.department-inner-icon {
-	text-align: left;
-	margin-bottom: 10px;
 }
 .department-right-box {
 	margin-top: 20px;
