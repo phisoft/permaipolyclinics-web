@@ -1465,6 +1465,12 @@ ul.dc-single-timetable {
 	letter-spacing: -0.25px;
 	margin-bottom: 15px;
 }
+
+.service-image {
+	width: 300px;
+	margin-left: 250px;
+	margin-bottom: 5px;
+}
 /* ================================= */
     /*===== Service Details=====*/
 /* ================================= */
