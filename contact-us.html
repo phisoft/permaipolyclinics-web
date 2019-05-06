@@ -101,7 +101,7 @@
       </div>
     </div>
     <div class="row">
-      <form class="appointment-form" method="post" action="contact-us.php" >
+      <form class="appointment-form" method="post" action="https://formspree.io/paragasu@gmail.com" >
         <div class="col-md-8 col-md-8">
           <h1 class="heading-title mb20">Contact form</h1>
           <div class="row">
@@ -239,54 +239,6 @@
 <script type="text/javascript" src="js/owl.carousel.min.js"></script>
 <script type="text/javascript" src="js/theme.js"></script>
 <script type="text/javascript" src="js/menumaker.js"></script>
-<script async defer src="https://maps.googleapis.com/maps/api/js?callback=initMap"></script>
-<script type="text/javascript">
-
-
-function initMap() {
-  var map = new google.maps.Map(document.getElementById('googleMap'), {
-    zoom: 12,
-    scrollwheel: false,
-    center: {lat: 5.985752, lng: 116.077448}
-  });
-
-  setMarkers(map);
-}
-
-function setMarkers(map) {
-  
-  var shape = {
-    coords: [1, 1, 1, 30, 30, 30, 30, 1],s
-    type: 'poly'
-  };
-  var image = {
-    url: 'images/marker.png',
-
-    // This marker is 20 pixels wide by 32 pixels high.
-    size: new google.maps.Size(40, 49),
-    // The origin for this image is (0, 0).
-    origin: new google.maps.Point(0, 0),
-    // The anchor for this image is the base of the flagpole at (0, 32).
-    anchor: new google.maps.Point(0, 49)
-  };
-  var marker = new google.maps.Marker({
-      position: {lat: 5.985752, lng: 116.077448},
-      map: map,
-      icon: image,
-      shape: shape,
-      title: "Our map Address",
-      zIndex: 1
-    });
-  var content = "<h4>Permai Polyclinics:</h4> Our map Address";
-  var infowindow = new google.maps.InfoWindow()
-  google.maps.event.addListener(marker,'click', (function(marker,content,infowindow){
-        return function() {
-           infowindow.setContent(content);
-           infowindow.open(map,marker);
-        };
-    })(marker,content,infowindow));
-}
-</script>
 <!-- end  jquery -->
 </body>
 </html>
