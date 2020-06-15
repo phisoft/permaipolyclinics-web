@@ -2165,6 +2165,14 @@ ul.department-list li.active a i {
 	-ms-transform: rotate(-45deg) scale(1) skew(1deg) translate(0px);
 }
 
+/* ---------- Career New ----------- */
+
+.badge-warning {
+    color: white;
+	background-color: #07911e;
+	padding: 7px;
+}
+
 /* --------------------- Mobile CSS  ------------------- */
 
 @media(max-width:768px) {
