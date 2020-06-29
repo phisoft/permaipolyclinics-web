@@ -1408,14 +1408,7 @@ p.wel-msg {
 	font-weight: bold;
 }
 .dc-style-inner:hover {
-	background: #47C93D;
 	color: #FFFFFF;
-}
-.dc-style-inner:hover a, .dc-style-inner:hover span {
-	color: #FFFFFF;
-	-webkit-transition: none;
-	-moz-transition: none;
-	transition: none;
 }
 /* ================================= */
     /*===== Doctor Details =====*/
