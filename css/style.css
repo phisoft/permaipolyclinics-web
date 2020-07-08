@@ -917,6 +917,11 @@ p.wel-msg {
 
 .header2 {
 }
+
+#navmenu {
+	width: 110%;
+}
+
 #navmenu ul li a.emergency-menu {
 	padding: 15px 5px;
 }
