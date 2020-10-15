@@ -162,6 +162,63 @@ hr {
 .black {
 	color:#221223;
 }
+
+.posTitle {
+	text-align: left;
+	position: absolute;
+	top: 28.5%;
+	left: 15.6%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+.posTitle2 {
+	text-align: left;
+	position: absolute;
+	top: 41%;
+	left: 24.5%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+.posTitle3 {
+	text-align: left;
+	position: absolute;
+	top: 53.4%;
+	left: 26.5%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+.posTitle4 {
+	text-align: left;
+	position: absolute;
+	top: 63%;
+	left: 14.2%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+.texTitle {
+	font-size: 70pt;
+	font-weight: 400;
+	color: azure;
+	text-shadow: 1px 1px 60px #000;
+}
+
+.texTitle2 {
+	font-size: 100pt;
+	font-weight: 700;
+	color: crimson;
+}
+
+.texTitle3 {
+	font-size: 70pt;
+	font-weight: 400;
+	color: azure;
+	text-shadow: 1px 1px 60px #000;
+}
+
 /* ================================= */
     /*===== Button =====*/
 /* ================================= */
@@ -243,6 +300,17 @@ hr {
 	font-size: 17px;
 	font-weight: 500;
 }
+
+.btn-crimson {
+	color: #FFFFFF;
+	border-bottom: 3px solid #DA133B;
+	border-radius: 0px;
+	padding: 13px 1px;
+	margin-right: 30px;
+	font-size: 14pt;
+	font-weight: 700;
+	text-shadow: 1px 1px 24px black;
+}
 .btn-lineblue {
 	color:#FFFFFF;
 	border-bottom:4px solid #2481DC;
@@ -254,7 +322,7 @@ hr {
 .btn:hover, .btn:focus {
 	box-shadow: 0.87px 0.096px 10px 0 rgba(0, 0, 0, 0.4);
 }
-.btn-lineblue:hover, .btn-linegreen:hover {
+.btn-lineblue:hover, .btn-linegreen:hover, .btn-crimson:hover {
 	box-shadow:none;
 	color: #F5F5F5;
 }
@@ -2177,7 +2245,84 @@ ul.department-list li.active a i {
 
 /* --------------------- Mobile CSS  ------------------- */
 
-@media(max-width:768px) {
+@media(max-width:375px) and (min-width:360px) {
+	.posTitle {
+		top: 28.5% !important;
+		left: 25% !important;
+	}
+	
+	.posTitle2 {
+		top: 35% !important;
+		left: 43% !important;
+	}
+	
+	.posTitle3 {
+		top: 41% !important;
+		left: 35.5% !important;
+	}
+	
+	.posTitle4 {
+		top: 47% !important;
+		left: 28% !important;
+	}
+	
+	.texTitle {
+		font-size: 40pt !important;
+	}
+	
+	.texTitle2 {
+		font-size: 50pt !important;
+	}
+	
+	.texTitle3 {
+		font-size: 25pt !important;
+	}
+
+	.btn-crimson {
+		font-size: 12pt !important;
+	}
+}
+
+@media(max-width:414px) and (min-width:411px) {
+	.posTitle {
+		top: 28.5% ;
+		left: 25% ;
+	}
+	
+	.posTitle2 {
+		top: 35% ;
+		left: 41% ;
+	}
+	
+	.posTitle3 {
+		top: 41% ;
+		left: 38.5% ;
+	}
+	
+	.posTitle4 {
+		top: 47% t;
+		left: 27.5% ;
+	}
+	
+	.texTitle {
+		font-size: 40pt ;
+	}
+	
+	.texTitle2 {
+		font-size: 50pt ;
+	}
+	
+	.texTitle3 {
+		font-size: 29pt ;
+	}
+
+	.btn-crimson {
+		font-size: 12pt;
+	}
+
+}
+
+@media(width:768px) {
 .header::before {
 	background: none;
 }
@@ -2246,8 +2391,41 @@ ul.department-list li.active a i {
 .blog-link a {
 	font-size: 20px;
 }
+
+.posTitle {
+	top: 34% ;
+	left: 25%;
 }
-@media(max-width:992px) {
+
+.posTitle2 {
+	top: 44%;
+	left: 42% !important;
+}
+
+.posTitle3 {
+	top: 54%;
+	left: 42% ;
+}
+
+.posTitle4 {
+	top: 63%;
+	left: 26% ;
+}
+
+.texTitle {
+	font-size: 50pt;
+}
+
+.texTitle2 {
+	font-size: 80pt;
+}
+
+.texTitle3 {
+	font-size: 50pt;
+}
+
+}
+@media(width:992px) {
 .testimonial-style {
 	background-image: none;
 }
@@ -2262,15 +2440,66 @@ ul.department-list li.active a i {
 	margin:0;
 }
 }
-@media(max-width:1280px) {
-.testimonial-style {
-	background-position: calc(52% - 0) calc(100% - 1px);
+@media(width:1280px) {
+	.testimonial-style {
+		background-position: calc(52% - 0) calc(100% - 1px);
+	}
+
+	.posTitle2 {
+		left: 27.3%;
+	}
+
+	.posTitle3 {
+		left: 30%;
+	}
+
 }
-}
-@media(max-width:1300px) {
+@media(width:1300px) {
 .specialities-box {
 	display: none;
 }
+}
+
+@media(width:1440px) {
+	.posTitle2 {
+		left: 26% ;
+	}
+	
+	.posTitle3 {
+		left: 28.3% ;
+	}
+	
+	.posTitle4 {
+		left: 14% ;
+	}
+}
+
+@media(width:1680px) {
+	.posTitle2 {
+		left: 24.5% ;
+	}
+	
+	.posTitle3 {
+		left: 26.4% ;
+	}
+
+	.posTitle4 {
+		left: 14% ;
+	}
+}
+
+@media(width:2560px) {
+	.posTitle2 {
+		left: 21.5% ;
+	}
+	
+	.posTitle3 {
+		left: 22.7% ;
+	}
+
+	.posTitle4 {
+		left: 14.7% ;
+	}
 }
 
 * {
