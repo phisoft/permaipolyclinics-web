@@ -1337,6 +1337,15 @@ p.wel-msg {
 	position: relative;
 	padding: 0;
 }
+.page-header2 {
+	background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), rgba(0, 0, 0, 0.50) url(../images/covidtest.jpg) no-repeat center;
+	background-size: cover;
+	color: #FFFFFF;
+	margin: 0;
+	border: none;
+	position: relative;
+	padding: 0;
+}
 .page-section {
 	padding:100px 0;
 }
@@ -1346,6 +1355,18 @@ p.wel-msg {
 	color:#FFFFFF;
 }
 .page-header h4 {
+	color:#FFFFFF;
+	font-weight:300;
+	margin-bottom:0;
+	line-height:1;
+}
+
+.page-header2 h1 {
+	font-size:47px;
+	font-weight:bold;
+	color:#FFFFFF;
+}
+.page-header2 h4 {
 	color:#FFFFFF;
 	font-weight:300;
 	margin-bottom:0;
