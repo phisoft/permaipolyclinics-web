@@ -271,6 +271,14 @@ hr {
 	background-color:#0B5386;
 	color:#FFFFFF;
 }
+.btn-greenpermai {
+	background-color: #028983;
+	color: #FFFFFF;
+}
+.btn-greenpermai:hover {
+	background-color: #045e59;
+	color: #FFFFFF;
+}
 .btn-lg {
 	font-size: 16px;
 	padding: 20px 34px;
