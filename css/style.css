@@ -102,7 +102,7 @@ a {
 }
 a:focus, a:hover {
 	text-decoration:none;
-	color:#1D74CA;
+	color:#028983;
 }
 ::selection {
 	background:#E5F1F0;
@@ -217,6 +217,25 @@ hr {
 	font-weight: 400;
 	color: azure;
 	text-shadow: 1px 1px 60px #000;
+}
+
+/* ================================= */
+    /*===== Font-Weight =====*/
+/* ================================= */
+
+.fw1 { font-weight: 100; }
+.fw2 { font-weight: 200; }
+.fw3 { font-weight: 300; }
+.fw4 { font-weight: 400; }
+.fw5 { font-weight: 500; }
+.fw6 { font-weight: 600; }
+
+/* ================================= */
+    /*===== Accordion =====*/
+/* ================================= */
+
+.panel-title {
+	font-size: 18px !important;
 }
 
 /* ================================= */
