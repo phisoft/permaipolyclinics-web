@@ -53,25 +53,51 @@
               <li><a href="index.html">Home</a></li>
               <li><a href="doctors.html">Doctors</a></li>
               <li><a href="">Services</a>
-                <ul>                
-                  <li><a href="services/delivery.html">Medicine Delivery</a></li> 
-                <li><a href="services/specialpackage.html">Special Package</a></li>  
-                <li><a href="services/ultrasound.html">Ultrasound</a></li>  
-                <li><a href="services/cancermarker.html">Cancer Marker</a></li>
-                <li><a href="services/digitalx-ray.html">Digital X-ray</a></li>
-                <li><a href="services/stresstest.html">Stress Test</a></li>
-                <li><a href="services/heartscan.html">Echocardiogram</a></li>
-                <li><a href="services/carotid.html">Carotid Doppler</a></li>  
-                <li><a href="services/fwscreening.html">Foreign Worker Screening</a></li>  
-                <li><a href="services/ecg.html">Electrocardiogram (ECG)</a></li>  
-                <li><a href="services/physiotherapy.html">Physiotherapy</a></li>  
-                <li><a href="services/counterpulsation.html">Counterpulsation</a></li>  
-                <li><a href="services/services/covidtest.html">COVID-19 Test</a></li>  
-                <li><a href="services/heart.html">Heart Scan</a></li>  
-                <li><a href="services/bonescan.html">Bone Scan</a></li>            
-                  </ul>
+              
+                <!-- Dropdown Services -->
+                <li class="dropdown">
+                 <a class="dropbtn">Services<span class="caret"></span></a>
+                 <div class="dropdown-content">
+                   <a href="services/delivery.html">Medicine Delivery</a>
+                   <a href="services/specialpackage.html">Special Package</a>
+                   <a href="services/fwscreening.html">Foreign Worker Screening</a> 
+                   <a href="services/ecg.html">Electrocardiogram (ECG)</a>
+                   <a href="services/physiotherapy.html">Physiotherapy</a>
+                   <a href="services/counterpulsation.html">Counterpulsation</a>
+                   <a href="services/covid-19.html">COVID-19</a>
+                   <a href="services/heart.html">Heart Scan</a>
+                   <a href="services/bonescan.html">Bone Scan</a>
+   
+                   <!--Submenu Special Services-->
+                   
+                   <div class="dropdown-submenu">
+                     <a class="dropbtn">Special Services<span class="caret"></span></a>
+                     <div class="dropdown-subcontent">                      
+                       <a href="services/ultrasound.html">Ultrasound</a>
+                       <a href="services/cancermarker.html">Cancer Marker</a>
+                       <a href="services/digitalx-ray.html">Digital X-ray</a>
+                       <a href="services/stresstest.html">Stress Test</a>
+                       <a href="services/heartscan.html">Echocardiogram</a>
+                       <a href="services/carotid.html">Carotid Doppler</a>  
+                     </div>
+                   </div>
+                 </li>
               </li>
-
+            <script>
+ $(".submenu").hover(
+              function () {
+                  $(this).find(".hidden").show("100");
+              },
+              function () {
+                  $(this).find(".hidden").hide("100");
+              }
+      );
+       
+            </script>
+           
+                    
+              
+            </li>
               <li><a href="branches.html"> Clinics</a></li>
               <li><a href="panels.html">Panels</a></li>
               <li><a href="about-us.html">About Us</a></li>

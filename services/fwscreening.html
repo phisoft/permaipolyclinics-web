@@ -50,26 +50,52 @@
             <ul>
               <li><a href="../index.html">Home</a></li>
               <li><a href="../doctors.html">Doctors</a></li>
-              <li><a href="">Services</a>
-              <ul>
-                <li><a href="delivery.html">Medicine Delivery</a></li> 
-                <li><a href="specialpackage.html">Special Package</a></li>  
-                <li><a href="ultrasound.html">Ultrasound</a></li>  
-                <li><a href="cancermarker.html">Cancer Marker</a></li>
-                <li><a href="digitalx-ray.html">Digital X-ray</a></li>
-                <li><a href="stresstest.html">Stress Test</a></li>
-                <li><a href="heartscan.html">Echocardiogram</a></li>
-                <li><a href="carotid.html">Carotid Doppler</a></li>  
-                <li><a href="fwscreening.html">Foreign Worker Screening</a></li>  
-                <li><a href="ecg.html">Electrocardiogram (ECG)</a></li>  
-                <li><a href="physiotherapy.html">Physiotherapy</a></li>  
-                <li><a href="counterpulsation.html"> Counterpulsation</a></li>  
-                <li><a href="covidtest.html">COVID-19 Test</a></li>  
-                <li><a href="heart.html">Heart Scan</a></li>  
-                <li><a href="bonescan.html">Bone Scan</a></li>    
-                </ul>
+             
+            <!-- Dropdown Services -->
+            <li class="dropdown">
+              <a class="dropbtn">Services<span class="caret"></span></a>
+              <div class="dropdown-content">
+                <a href="delivery.html">Medicine Delivery</a>
+                <a href="specialpackage.html">Special Package</a>
+                <a href="fwscreening.html">Foreign Worker Screening</a> 
+                <a href="ecg.html">Electrocardiogram (ECG)</a>
+                <a href="physiotherapy.html">Physiotherapy</a>
+                <a href="counterpulsation.html">Counterpulsation</a>
+                <a href="covid-19.html">COVID-19</a>
+                <a href="heart.html">Heart Scan</a>
+                <a href="bonescan.html">Bone Scan</a>
+
+                <!--Submenu Special Services-->
+                
+                <div class="dropdown-submenu">
+                  <a class="dropbtn">Special Services<span class="caret"></span></a>
+                  <div class="dropdown-subcontent">                      
+                    <a href="ultrasound.html">Ultrasound</a>
+                    <a href="cancermarker.html">Cancer Marker</a>
+                    <a href="digitalx-ray.html">Digital X-ray</a>
+                    <a href="stresstest.html">Stress Test</a>
+                    <a href="heartscan.html">Echocardiogram</a>
+                    <a href="carotid.html">Carotid Doppler</a>  
+                  </div>
+                </div>
               </li>
-              <li><a href="../branches.html"> Clinics</a></li>
+            <script>
+ $(".submenu").hover(
+              function () {
+                  $(this).find(".hidden").show("100");
+              },
+              function () {
+                  $(this).find(".hidden").hide("100");
+              }
+      );
+       
+            </script>
+           
+                    
+              
+            </li>
+  
+            </li><a href="../branches.html"> Clinics</a></li>
               <li><a href="../panels.html">Panels</a></li>
               <li><a href="../about-us.html">About Us</a></li>
               <li><a href="../contact-us.html">Contact</a></li>
@@ -172,15 +198,16 @@
           <div class="footer-widget">
             <h2>Navigation</h2>
             <ul class="listnone bullet-arrow-right footer-ul footer-menu">
-              <li><a href="index.html">Home</a></li>
-              <li><a href="doctors.html">Doctors</a></li>
-              <li><a href="services.html">Services</a></li>
-              <li><a href="branches.html"> Clinics</a></li>
-              <li><a href="panels.html">Panels</a></li>
-              <li><a href="about-us.html">About Us</a></li>
-              <li><a href="contact-us.html">Contact us</a></li>
-              <li><a href="career.html">Career</a></li>
-            </ul>
+              <ul class="listnone bullet-arrow-right footer-ul footer-menu">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../doctors.html">Doctors</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="../branches.html"> Clinics</a></li>
+                <li><a href="../panels.html">Panels</a></li>
+                <li><a href="../about-us.html">About Us</a></li>
+                <li><a href="../contact-us.html">Contact us</a></li>
+                <li><a href="../career.html">Career</a></li>
+              </ul>
           </div>
         </div>
       </div>
