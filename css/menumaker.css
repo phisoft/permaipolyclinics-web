@@ -71,6 +71,7 @@
   background: #ffffff;
   content: '';
 }*/
+
 #navmenu > ul > li.has-sub > a:before {
   position: absolute;
   right: 14px;
@@ -121,9 +122,8 @@
   margin-right: 100%;
 }
 #navmenu ul ul li a {
-  border-top: 1px solid rgba(30, 30, 220, 0.15);
   padding: 16px 20px;
-  width: 170px;
+  width: 250px;
   font-size: 16px;
   text-decoration: none;
   color: #ffffff;
@@ -138,7 +138,8 @@
 }
 #navmenu ul ul li:hover > a,
 #navmenu ul ul li a:hover {
-  color: #ffffff;
+  color: #028983;
+  background-color: white ;
 }
 #navmenu ul ul li.has-sub > a:after {
   position: absolute;
@@ -364,4 +365,90 @@
     padding-left: 0px;
   
   }
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background: #207fdc;
+  background: #028983;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  text-align: center;
+  padding: 16px 25px;
+  min-height: 40px;
+  font-size: 16px;
+  width: 160px;
+  border-top: 2px solid rgba(30, 30, 220, 0.2);
+  border-bottom: 2px solid rgba(30, 30, 220, 0.2);
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  width: 160px;
+}
+
+.navmenu-nav li:hover > ul.dropdown-menu {
+  display: block;
+}
+
+
+
+.dropdown-submenu {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+
+.dropdown-subcontent {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 100%;
+  background: #207fdc;
+  background: #028983;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-subcontent a {
+  color: white;
+  text-align: center;
+  padding: 16px 25px;
+  min-height: 40px;
+  font-size: 16px;
+  width: 160px;
+  border-top: 2px solid rgba(30, 30, 220, 0.2);
+  border-bottom: 2px solid rgba(30, 30, 220, 0.2);
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-subcontent a:hover {background-color: #f1f1f1}
+
+.dropdown-submenu:hover .dropdown-subcontent {
+  display: block;
+  width: 160px;
+}
+
+.navmenu-nav li:hover > ul.dropdown-menu {
+  display: block;
 }
