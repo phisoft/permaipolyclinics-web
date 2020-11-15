@@ -122,9 +122,8 @@
   margin-right: 100%;
 }
 #navmenu ul ul li a {
-  border-top: 1px solid rgba(30, 30, 220, 0.15);
   padding: 16px 20px;
-  width: 170px;
+  width: 250px;
   font-size: 16px;
   text-decoration: none;
   color: #ffffff;
@@ -139,7 +138,8 @@
 }
 #navmenu ul ul li:hover > a,
 #navmenu ul ul li a:hover {
-  color: #ffffff;
+  color: #028983;
+  background-color: white ;
 }
 #navmenu ul ul li.has-sub > a:after {
   position: absolute;
