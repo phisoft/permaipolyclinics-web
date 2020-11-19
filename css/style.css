@@ -2033,7 +2033,7 @@ ul.meta-tag {
 	letter-spacing: 0.75px;
 }
 .contact-box-content a {
-	display: block;
+	display: flow-root;
 	font-size: 22px;
 	color: #6b6f72;
 }
@@ -2642,3 +2642,41 @@ ul.department-list li.active a i {
 	padding: 1.0rem;
 }
 
+@media (max-width:400px) {
+	#googleMap {
+		height: 200px !important;
+		margin-bottom: 100px;
+	}
+
+	.btn-default {
+		margin-bottom: 50px;
+	}
+}
+
+@media (min-width:401px) and (max-width:767px) {
+	#googleMap {
+		height: 400px;
+	}
+
+	.btn-default {
+		margin-bottom: 50px;
+	}
+}
+
+@media (max-width:767px) {
+	.footer-contact-box {
+		background: #207FDC;
+		background: #028983;
+		margin-bottom: 0px !important;
+		margin-right: 0px !important;
+		padding: 80px 30px 74px;
+		z-index: 1;
+		display: inline-block;
+	}
+}
+
+@media (min-width:768px) {
+	#googleMap {
+		height: 500px;
+	}
+}
