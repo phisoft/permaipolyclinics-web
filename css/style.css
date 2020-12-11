@@ -2289,7 +2289,13 @@ ul.department-list li.active a i {
 
 /* ---------- Career New ----------- */
 
-.badge-warning {
+.badge-primary {
+	color: white;
+	background-color: #349de4;
+	padding: 7px;
+}
+
+.badge-success {
     color: white;
 	background-color: #07911e;
 	padding: 7px;
