@@ -2679,6 +2679,10 @@ ul.department-list li.active a i {
 		z-index: 1;
 		display: inline-block;
 	}
+
+	.covid-poster {
+		width: 100% !important;
+	}
 }
 
 @media (min-width:768px) {
@@ -2686,3 +2690,8 @@ ul.department-list li.active a i {
 		height: 500px;
 	}
 }
+
+.covid-swab {
+	background: radial-gradient(circle, #028983, white);
+}
+ 
